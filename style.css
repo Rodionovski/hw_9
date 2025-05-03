@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainBox {
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+}
+
+.greenBox {
+    background-color: green;
+    height: 150px;
+}
+
+.purpleBox {
+    flex-grow: 1;
+    display: flex;
+}
+
+.yellowBox {
+    background-color: yellow;
+    width: 150px;
+}
+
+.content {
+    background-color: purple;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blueBoxOne, .blueBoxTwo {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBox {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
